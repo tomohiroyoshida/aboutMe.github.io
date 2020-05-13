@@ -2,6 +2,8 @@
 
 [こちらが私のポートフォリオです。]( https://tomohiroyoshida.github.io/tomo.github.io/)  
 自己紹介や自分のプログラミングスキルなどについてまとめました。
+<img width="1440" alt="スクリーンショット 2020-05-13 18 38 31" src="https://user-images.githubusercontent.com/56680512/81797014-2f7b9180-9549-11ea-9b3d-d84babb0073a.png">
+
 
 ## Overview
 - 使用技術　　
