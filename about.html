@@ -1,20 +1,15 @@
 <!DOCTYPE html>
 <html lang="ja">
-
-
     <head>
         <meta charset="UTF-8">
         <title>HITOMOHIRO</title>
         <meta name="description " content="This is Tomohiro's portfolio.">
-
         <!-----  CSS ----->
         <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
         <link href="css/special.css" rel="stylesheet">
     </head>
-
-    
     <body>
         <div id="wrapper">
             <div id="about" class="big-bg">
@@ -56,10 +51,9 @@
                                             <li>EIKEN Examination pre.1 grade(Dec/2019)</li>
                                         </div>
                                     </ul>
-                                </div>
-
-                            </div> <!--  about-content  --> 
-                    </div> <!--  wrapper  -->
+                                </div>  <!--  ここまでitem  --> 
+                            </div> <!--  ここまでabout-content  --> 
+                    </div> <!--  ここまでwrapper  -->
                 </main>
         
             </div>      
@@ -82,13 +76,11 @@
         <script src="scripts/jquery-3.4.1.min.js"></script>
         <script>
         'use strict';
-
         $(document).ready(function() {
             $('#open_nav').on('click', function() {
-                $('#wrapper, #nav').toggleClass('show');
+                $('#wrapper, #nav').toggleClass('show'); //ここでサイドメニューを開け閉めする
             });
         });
         </script>
     </body>
-
 </html>
