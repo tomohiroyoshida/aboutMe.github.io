@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html lang="ja">
-
-
     <head>
         <meta charset="UTF-8">
         <title>HITOMOHIRO</title>
         <meta name="description " content="This is Tomohiro's portfolio.">
-
         <!-----  CSS ----->
         <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
@@ -45,18 +42,15 @@
 
                             <input type="submit" class="button" value="送信">
                         </form>
-                    </div>
+                    </div> <!-- ここまでwrapper -->
                 </main>
-           
-            </div>
+            </div>  <!-- ここまでbig-bg -->
         <footer>
             <div class="container">
             <p>@Tomohiro Yoshida</p>
             </div>  
         </footer> 
-            
-    </div>     
-        
+    </div>　　<!-- ここまでwrapper -->
         <nav id="nav">
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -64,14 +58,12 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>    
-
         <script src="scripts/jquery-3.4.1.min.js"></script>
         <script>
         'use strict';
-
         $(document).ready(function() {
             $('#open_nav').on('click', function() {
-                $('#wrapper, #nav').toggleClass('show');
+                $('#wrapper, #nav').toggleClass('show'); //ここでサイドバーメニューを開け閉めする
             });
         });
         </script>
