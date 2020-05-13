@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="ja">
-
-
     <head>
         <meta charset="UTF-8">
         <title>HITOMOHIRO</title>
@@ -12,8 +10,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
         <link href="css/special.css" rel="stylesheet">
-    </head>
-
+    </head
     
     <body>
         <div id="wrapper">
@@ -41,33 +38,35 @@
                         </div>
                     </div>      
                 </main>
-        
-            </div>      
+            </div>  <!-- ここまでhome -->
+            
             <footer>
                 <div class="container">
                     <p>@Tomohiro Yoshida</p>
                 </div>  
             </footer>
-        </div>
+        </div> <!-- ここまでwrapper -->
         
-        <nav id="nav">
+        <!-- ここからサイドバーメニュー　-->
+        <nav id="nav"> 
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Me</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>    
-
+        <!-- ここまでサイドバーメニュー　-->
+        
+        <!-- ここからJavaScript + jQuery -->
         <script src="scripts/jquery-3.4.1.min.js"></script>
         <script>
         'use strict';
-
         $(document).ready(function() {
             $('#open_nav').on('click', function() {
-                $('#wrapper, #nav').toggleClass('show');
+                $('#wrapper, #nav').toggleClass('show'); //ここでサイドメニューを開け閉めする
             });
         });
         </script>
+        <!-- ここまでJavaScript + jQuery -->
     </body>
-
 </html>
