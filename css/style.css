@@ -22,21 +22,16 @@ a {
     margin: 0 auto;
     padding: 0 4%;
 }
-.title-block{
-    margin-left: 1px;
-}
 /* container */
 .container {
     max-width: 1000px;
     margin: 0;
-    padding: 16px;
+    padding: 15px;
 }
 /* header */
 header .container {
     min-height: 60px;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 76px;
+    padding-top: 5px 5px;
     background-repeat: no-repeat;
     background-size: 53px;
     background-position: 16px 10px;
@@ -100,6 +95,10 @@ main {
 #contact{
     background-image: url(../images/mail.jpg);
     min-height: 100vh;
+}#contact .page-title{
+    text-align: left;
+}.form{
+    text-align: left;
 }.form div{
     margin-bottom: 14px;
 }label{
@@ -156,5 +155,4 @@ a {
         font-size: 1.5rem;
         margin: 10px 0 42px;
     }
-    /* header */
 }

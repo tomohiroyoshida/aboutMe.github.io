@@ -18,42 +18,37 @@
 /*  ヘッダーにボタンを配置  */
 .header {
     padding: 16px 0;
-}
-header .container {
+}header .container {
     display: flex;
     justify-content: space-between;
-}
-.title-block {
-    flex:auto;
-}
-.hamburger {
-    flex: 0 0 32px;
+}.title-block {
+    flex:none;
+}.hamburger {
+    flex: 0 0 35px;
     align-self: center;
     text-align: center;
     color: #fff;
+}.hamburger img{
+    margin: 0 auto;
 }
 /* メニュー */
 #nav {
     padding: 24px 24px 0 24px;
     background: #000;
     color: white;
-}
-#nav ul {
+}#nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
-}
-#nav li a {
+}#nav li a {
     display: block;
     padding: 0.75rem 0;
     border-bottom: 1px solid #114d60;
     text-decoration: none;
     color: #fff;
-}
-#nav li a:hover {
+}#nav li a:hover {
     background: #0e3e4d;
-}
-#nav .logo {
+}#nav .logo {
     margin-bottom: 20px;
 }
 @media(max-width: 768px) {
