@@ -1,15 +1,11 @@
 @charset "UTF-8";
-
-/* ===== style.cssの上書き ===== */
+/*  style.cssの上書き  */
 .container {
     max-width: 100%;
 }
 img {
     max-width: 100%;
 }
-
-/* ===== 機能の実装に必要なCSS ===== */
-
 /* ドロワーナビゲーションの必須スタイル */
 #nav {
     position: fixed;
@@ -18,16 +14,15 @@ img {
     width: 270px;
     height: 100%;
 }
-
 /* ドロワーが開かれたときのスタイル */
 .show {
     transform: translate3d(-270px, 0, 0);
 }
-/*  開く閉じるアニメーション*/
+/*  開く閉じるアニメーション */
 #wrapper, #nav{
     transition: transform 0.3s;
 }
-/* ===== ヘッダーにボタンを配置 ===== */
+/*  ヘッダーにボタンを配置  */
 .header {
     padding: 16px 0;
 }
@@ -45,9 +40,6 @@ header .container {
     text-align: center;
     color: #fff;
 }
-
-/* ===== 装飾的なCSS ===== */
-
 /* メニュー */
 #nav {
     padding: 24px 24px 0 24px;
@@ -77,13 +69,11 @@ header .container {
 main .container {
     padding: 0;
 }
-  
 .content {
     padding: 0 30px;
     text-align: center;
 }
-
-@media(min-width: 768px) {
+@media(max-width: 768px) {
     .archive-box {
         display: flex;
         justify-content: space-around;
