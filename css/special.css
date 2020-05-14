@@ -1,12 +1,5 @@
 @charset "UTF-8";
-/*  style.cssの上書き  */
-.container {
-    max-width: 100%;
-}
-img {
-    max-width: 100%;
-}
-/* ドロワーナビゲーションの必須スタイル */
+/* ドロワーナビゲーション*/
 #nav {
     position: fixed;
     right: -270px;
@@ -14,7 +7,7 @@ img {
     width: 270px;
     height: 100%;
 }
-/* ドロワーが開かれたときのスタイル */
+/* ドロワーが開かれたとき */
 .show {
     transform: translate3d(-270px, 0, 0);
 }
@@ -31,12 +24,11 @@ header .container {
     justify-content: space-between;
 }
 .title-block {
-    flex: 1 1 auto;
+    flex:auto;
 }
 .hamburger {
     flex: 0 0 32px;
     align-self: center;
-    margin-left: 16px;
     text-align: center;
     color: #fff;
 }
@@ -63,15 +55,6 @@ header .container {
 }
 #nav .logo {
     margin-bottom: 20px;
-}
-
-/* メインコンテンツ */
-main .container {
-    padding: 0;
-}
-.content {
-    padding: 0 30px;
-    text-align: center;
 }
 @media(max-width: 768px) {
     .archive-box {
