@@ -1,4 +1,4 @@
-# PORTFOLIO 
+# Portfolio
 
 [こちらが私のポートフォリオです。]( https://tomohiroyoshida.github.io/tomo.github.io/)  
 自己紹介や自分のプログラミングスキルなどについてまとめました。
